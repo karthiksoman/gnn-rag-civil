@@ -399,7 +399,7 @@ with st.sidebar:
     )
 
 # Main query input
-query = st.text_input("Enter your query:", placeholder="e.g., What was the relationship between Rome and Egypt?")
+query = st.text_input("Enter your query:", placeholder="e.g., Can you compare the Sassanian and Roman conquest of Egypt?")
 
 # Execute search button
 if st.button("Execute Search"):
